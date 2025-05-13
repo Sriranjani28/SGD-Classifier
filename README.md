@@ -7,13 +7,18 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Start the program.
-2.Data preprocessing 
-3.Cleanse data,handle missing values,encode categorical variables.
-4.Model Training:Fit logistic regression model on preprocessed data.
-5.Model Evaluation:Assess model performance using metrics like accuracyprecisioon,recall.
-6.Prediction: Predict placement status for new student data using trained model.
-7.End the program
+ 1. Initialize Parameters: Set initial weights (theta) to zero.
+    
+ 2. Compute Predictions: Calculate predictions using the sigmoid function on the
+ weighted inputs.
+ 
+ 3. Calculate Cost: Compute the cost using the cross-entropy loss function.
+ 
+ 4. Update Weights: Adjust weights by subtracting the gradient of the cost with
+ respect to each weight.
+ 
+ 5. Repeat: Repeat steps 2–4 for a set number of iterations or until convergence is
+ achieved
 
 ## Program:
 ```
